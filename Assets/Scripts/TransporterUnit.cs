@@ -8,7 +8,7 @@ using UnityEngine;
 public class TransporterUnit : Unit
 {
     public int MaxAmountTransported = 1;
-
+    
     private Building m_CurrentTransportTarget;
     private Building.InventoryEntry m_Transporting = new Building.InventoryEntry();
 
