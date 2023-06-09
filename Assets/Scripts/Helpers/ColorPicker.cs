@@ -36,6 +36,7 @@ public class ColorPicker : MonoBehaviour
             
             m_ColorButtons.Add(newButton);
         }
+        // Если есть JSON, то запускаем SelectColor(цветВJsonФайле)
     }
 
     public void SelectColor(Color color)
